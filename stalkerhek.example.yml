@@ -5,8 +5,8 @@ portal:
   time_zone: Europe/Vilnius
   
   # Leave these fields empty if no credentials
-  username: myusername
-  password: mypassword
+  username: 
+  password: 
   
   # Update these fields or leave (some of them) empty if required
   model: MAG254
