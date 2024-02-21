@@ -3,9 +3,9 @@ Description=Stalkerhek service
 After=network-online.target
 
 [Service]
-User=myuser
-Group=myuser
-ExecStart=/home/myuser/stalkerhek -config /home/myuser/stalkerhek.yml
+User=zetamin
+Group=User
+ExecStart=/home/zetamin/stalkerhek -config /home/zetamin/stalkerhek/stalkerhek.yml
 Restart=always
 RestartSec=3
 
