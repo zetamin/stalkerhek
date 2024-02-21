@@ -1,0 +1,18 @@
+portal:
+  model: MAG254
+  serial_number: E3D90E6E2AF8B
+  device_id: C58A271B525EA991DE26CD1799A68B87F943BB8599F1310BD3294F8987585C93
+  device_id2: 25505D750F750F46F441BAB25AB602DE60A69AD4B3692F0B72B259E37251A2F0
+  signature: 103BAF5F4D7FF18D4A697CE5ED46B82472E8BECC2781A2C7F8EC9F6C769FF69F
+  mac: 00:1A:79:bb:29:62
+  url: http://line.venomtv.me:80/server/load.php
+  time_zone: Indian/Mauritius
+
+hls:
+  enabled: false
+  bind: 0.0.0.0:9999
+
+proxy:
+  enabled: true
+  bind: 0.0.0.0:8888
+  rewrite: false # EXPERIMENTAL! see https://github.com/erkexzcx/stalkerhek/pull/12#issue-607960283
